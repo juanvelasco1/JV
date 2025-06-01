@@ -1,74 +1,74 @@
-<p align="center">
-  <img src="https://yourbannerurl.com/banner.png" alt="Banner Juan V." />
-</p>
+<h1 align="center">Hello I'm Juan V 🥊</h1>
 
-<h1 align="center">Hi 👋, I'm Juan V.</h1>
+###
 
-<p align="center">
-  <b>Frontend Developer & UX Designer in Training</b><br>
-  I turn ideas into interactive, user-centered digital experiences. 🚀
-</p>
+<h5 align="left">A passionate Frontend Developer and UX Designer in training, combining design and interactivity to build intuitive web experiences. 🚀</h5>
 
----
+###
 
-### 🛠️ Technologies & Tools
+<h6 align="left">🔵 Frontend architecture with clean, modular components<br>🟢 Design systems and UI libraries (Material UI, Tailwind)<br>🟡 Interactive experiences (quizzes, gamification, storytelling)<br>🔴 UX design with a real human-centered approach</h6>
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" />
-</p>
+###
 
----
+<div align="center">
+  <a href="[https://www.linkedin.com/in/tuusuario/](https://www.linkedin.com/in/juan-esteban-velasco-bohorquez-39a33b233/)" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="130" height="40" alt="linkedin logo" />
+  </a>
+  <a href="[https://www.behance.net/tuusuario](https://www.behance.net/juanesvelasco)" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/behance/default.svg" width="130" height="40" alt="behance logo" />
+  </a>
+  <a href="juanesvb1@gmail.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="130" height="40" alt="gmail logo" />
+  </a>
+</div>
 
-### 💡 What I Focus On
+###
 
-- Beautiful and accessible interfaces (mobile-first)
-- Frontend architecture with clean, modular components
-- Design systems and UI libraries (Material UI, Tailwind)
-- Interactive experiences (quizzes, gamification, storytelling)
-- UX design with a real human-centered approach
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/juanvelasco1/juanvelasco1/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/juanvelasco1/juanvelasco1/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/juanvelasco1/juanvelasco1/output/pacman-contribution-graph.svg">
+</picture>
 
----
+###
 
-### ✨ Design Quote
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" alt="tailwindcss logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vuejs logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="40" alt="materialui logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg" height="40" alt="storybook logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
+  <img width="13" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+</div>
 
-> “Interface is also architecture: it’s about form, function, and emotion.”
+###
 
----
+<br clear="both">
 
-### 📌 Highlighted Projects
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=juanvelasco1&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=merko&hide_border=false&order=2" height="170" alt="languages graph"  />
+  <img src="https://github-profile-trophy.vercel.app?username=juanvelasco1&theme=juicyfresh&column=1&row=1&margin-w=1&margin-h=1&no-bg=true&no-frame=true&order=4" height="150" alt="trophy graph"  />
+</div>
 
-- ♟️ [Chess Quiz App](https://github.com/yourusername/chess-quiz) — A chess theory quiz system with React, Firebase & MUI.
-- 📚 [Book Recommender System](https://github.com/yourusername/book-ai) — AI-based book matcher with user profiles and group logic.
-- 🏙️ [Urban Oasis](https://github.com/yourusername/oasis-urbano) — UX/urbanism project for public space in Popayán.
+###
 
----
+<div align="center">
+  <img src="https://profile-counter.glitch.me/juanvelasco1/count.svg?"  />
+</div>
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=gruvbox&hide_border=true&count_private=true" />
-  <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=gruvbox&hide_border=true" />
-  <br />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=gruvbox&hide_border=true" />
-</p>
-
----
-
-### 📬 Let's Connect!
-
-<p align="center">
-  <a href="mailto:your.email@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/yourlinkedin/"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://yourportfolio.com"><img src="https://img.shields.io/badge/Portfolio-000?style=flat&logo=firefox&logoColor=white" /></a>
-</p>
+###
