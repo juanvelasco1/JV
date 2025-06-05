@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 220 13% 95%; /* Very light gray #F0F2F5 */
+    --foreground: 215 25% 27%; /* Dark grayish blue - good contrast on light gray */
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    --primary: 220 39% 26%; /* Dark blue #293B5F */
+    --primary-foreground: 220 13% 95%; /* Light gray for text on primary */
+
+    --secondary: 216 34% 90%; /* Lighter shade of primary for secondary elements */
+    --secondary-foreground: 220 39% 26%; /* Dark blue for text on secondary */
+
+    --muted: 216 34% 92%; 
+    --muted-foreground: 215 20% 45%;
+
+    --accent: 190 40% 32%; /* Teal #306974 */
+    --accent-foreground: 220 13% 95%; /* Light gray for text on accent */
+
+    --destructive: 0 72% 51%; /* Standard destructive red */
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 88%; /* Slightly darker than background for borders */
+    --input: 220 13% 88%; /* Input fields border */
+    --ring: 220 39% 26%; /* Ring color (primary) */
+
+    --radius: 0.5rem;
+
+    --chart-1: 220 39% 26%; /* primary */
+    --chart-2: 190 40% 32%; /* accent */
+    --chart-3: 220 25% 50%; 
+    --chart-4: 190 30% 50%;
+    --chart-5: 210 30% 40%;
+
+    --sidebar-background: 220 30% 20%; /* Darker blue for sidebar */
+    --sidebar-foreground: 220 13% 90%; /* Light gray for sidebar text */
+    --sidebar-primary: 190 40% 32%; /* Teal accent for sidebar active items */
+    --sidebar-primary-foreground: 0 0% 100%; /* White for text on sidebar active */
+    --sidebar-accent: 220 30% 25%;
+    --sidebar-accent-foreground: 220 13% 95%;
+    --sidebar-border: 220 30% 15%;
+    --sidebar-ring: 190 40% 32%;
+  }
+
+  .dark {
+    --background: 220 25% 10%; /* Dark background for dark mode */
+    --foreground: 220 13% 90%; /* Light gray text for dark mode */
+
+    --card: 220 25% 12%;
+    --card-foreground: 220 13% 90%;
+
+    --popover: 220 25% 10%;
+    --popover-foreground: 220 13% 90%;
+
+    --primary: 190 40% 45%; /* Lighter Teal for primary in dark mode */
+    --primary-foreground: 220 25% 10%; 
+
+    --secondary: 220 25% 20%;
+    --secondary-foreground: 220 13% 90%;
+
+    --muted: 220 25% 22%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 220 39% 35%; /* Lighter Dark Blue for accent in dark mode */
+    --accent-foreground: 220 13% 95%;
+
+    --destructive: 0 60% 45%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 25% 20%;
+    --input: 220 25% 20%;
+    --ring: 190 40% 45%;
+
+    --chart-1: 190 40% 45%;
+    --chart-2: 220 39% 35%;
+    --chart-3: 190 30% 60%;
+    --chart-4: 220 25% 60%;
+    --chart-5: 210 30% 50%;
+
+    --sidebar-background: 220 25% 8%; 
+    --sidebar-foreground: 220 13% 85%;
+    --sidebar-primary: 190 40% 45%; 
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 25% 15%;
+    --sidebar-accent-foreground: 220 13% 90%;
+    --sidebar-border: 220 25% 10%;
+    --sidebar-ring: 190 40% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  /* Hide spin buttons on number inputs */
+  input[type=number]::-webkit-outer-spin-button,
+  input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+  }
+}
