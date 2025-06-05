@@ -1,5 +1,8 @@
-
 import type { StockData } from '@/types';
+
+function delay(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 const FINNHUB_API_KEY = 'd10dutpr01qlsac8gtm0d10dutpr01qlsac8gtmg'; // User provided API key
 const FINNHUB_BASE_URL = 'https://finnhub.io/api/v1';
@@ -9,37 +12,40 @@ export async function fetchStockPrices(symbols: string[]): Promise<StockData[]> 
     return [];
   }
 
-  const stockDataPromises = symbols.map(async (symbol) => {
+  const results: StockData[] = [];
+
+  for (const symbol of symbols) {
     try {
       const response = await fetch(`${FINNHUB_BASE_URL}/quote?symbol=${symbol.toUpperCase()}&token=${FINNHUB_API_KEY}`);
       if (!response.ok) {
         console.error(`Finnhub API error for /quote ${symbol}: ${response.status} ${await response.text()}`);
-        return {
+        results.push({
           symbol: symbol.toUpperCase(),
           currentPrice: 0,
           changePercent: 0,
-          // companyName is not available from /quote. Dashboard uses stored name.
-        };
+        });
+      } else {
+        const data = await response.json();
+        results.push({
+          symbol: symbol.toUpperCase(),
+          currentPrice: data.c ?? 0,
+          changePercent: data.dp ?? 0,
+        });
       }
-      const data = await response.json();
-      // Finnhub /quote returns: { c, d, dp, h, l, o, pc, t }
-      // c: current price, dp: percent change
-      return {
-        symbol: symbol.toUpperCase(),
-        currentPrice: data.c ?? 0, // Use nullish coalescing for safety
-        changePercent: data.dp ?? 0,
-      };
     } catch (error) {
       console.error(`Error fetching stock price for ${symbol}:`, error);
-      return {
+      results.push({
         symbol: symbol.toUpperCase(),
         currentPrice: 0,
         changePercent: 0,
-      };
+      });
     }
-  });
 
-  return Promise.all(stockDataPromises);
+    // Esperar 1 segundo entre peticiones
+    await delay(3000);
+  }
+
+  return results;
 }
 
 export async function searchStockSymbol(query: string): Promise<{ symbol: string; name: string }[]> {
